@@ -1,24 +1,12 @@
-# README
+# Sample Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo will hold a sample rails app developed in conjunction with following
+various Rails guides.
 
-Things you may want to cover:
+Incremental development will occur with new features / examples being added to
+the app over time. Note that I will provide a list of GitHub tags (releases) with
+commit hashes and links so that one can see the changes as development occurred.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+| Release / Version                                                          | Notes                                                                 | Commit Link                                                                                                                                     |
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| [v1.0.0](https://github.com/depasqua/sample_rails_app/releases/tag/v1.0.0) | Initial release creation of new app:<br/>`rails new sample_rails_app` | [commit 09bc201e9aa7d50d8d2c235c09336bb2da259ee5](https://github.com/depasqua/sample_rails_app/commit/09bc201e9aa7d50d8d2c235c09336bb2da259ee5) |
