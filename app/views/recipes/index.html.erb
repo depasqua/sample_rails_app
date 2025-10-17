@@ -1,0 +1,19 @@
+<h1>Recipes#index</h1>
+<h1>Listing recipes</h1>
+<%= link_to 'New recipe', new_recipe_path %>
+<p></p>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+  <% @recipes.each do |recipe| %>
+    <tr>
+      <td><%= recipe.name %></td>
+      <td><%= recipe.description %></td>
+      <td><%= link_to 'Show', recipe_path(recipe) %></td>
+    </tr>
+  <% end %>
+</table>
