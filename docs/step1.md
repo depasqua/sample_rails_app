@@ -7,8 +7,8 @@ Examine the file and directories we just created. The ones of most importance ar
 * `app/` (directory) - location for many application files of interest including where the models, controllers, and views will be placed. Within the `app/` directory, look for the following:
   * `controllers` (directory) - resource controller files (`recipe_controller.rb`) will be located here
   * `models` (directory) - model class files (`Recipe.rb`) will be located here
-  * `views` (directory) - view files (`something.html.erb`) will be located here
-* `config/` (directory) - location for configuration related files, including the ever important (`config/routes.rb`) file
+  * `views` (directory) - view files (`index.html.erb`) will be located here
+* `config/` (directory) - location for configuration related files, including the ever important ([`config/routes.rb`](config/routes.rb)) file
 
 Once these files are created, you test the basic setup by starting the server (`rails server`) from the command line. Be 
 sure you are in the top-level project directory (in this case, `sample_rails_app`) when you run the comment. You should 
