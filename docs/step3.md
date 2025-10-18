@@ -121,9 +121,9 @@ rake db:migration
 9. If you use the IDE, you can use the database viewer to connect to the db file
 [`storage/development.sqlite3`](storage/development.sqlite3). Note the `file` text field that defined the path to
 the `sqlite3` database file in our filesystem.
-![A view of the configuration window in RubyMine.](docs/images/db_viewer_config.png)
+![A view of the configuration window in RubyMine.](images/db_viewer_config.png)
 10. Once connected, you can use the viewer to see the structure and content of the database.
-![A view of the database via RubyMine.](docs/images/db_viewer.png)
+![A view of the database via RubyMine.](images/db_viewer.png)
 11. Verify the application by checking the following pages:
   * The root / landing page of the application: 'http://localhost:3000/'
   * From there should be able to follow the `My Recipes` link (`http://localhost:3000/recipes/index`) to a list of
