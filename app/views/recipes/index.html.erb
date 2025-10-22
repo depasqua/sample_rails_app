@@ -13,7 +13,7 @@
     <tr>
       <td><%= recipe.name %></td>
       <td><%= recipe.description %></td>
-      <td><%= link_to 'Show', recipe_path(recipe) %></td>
+      <td><%= link_to 'Show', recipe_path(recipe), id: "show-#{recipe.id}" %></td>
     </tr>
   <% end %>
 </table>
