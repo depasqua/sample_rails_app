@@ -60,4 +60,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem "cucumber-rails"
+  gem "rspec-rails"
+  gem "cucumber-rails-training-wheels"
 end
