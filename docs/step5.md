@@ -1,4 +1,4 @@
-# Step 4 - Add TDD Testing with RSSpec
+# Step 5 - Add TDD Testing with RSSpec
 
 1. To get started with using RSpec for our TDD tests, we need to modify our Gemfile. Add First, `rspec-rails` to your
    Gemfile. Note that you may already have a group for both `development` and `test` gems (`group :development, :test`),
