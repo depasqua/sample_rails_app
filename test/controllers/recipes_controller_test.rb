@@ -6,7 +6,7 @@ class RecipesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get new" do
-    get recipes_new_url
+    get new_recipe_url
     assert_response :success
   end
 
@@ -16,7 +16,7 @@ class RecipesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get index" do
-    get recipes_index_url
+    get recipes_url
     assert_response :success
   end
 end

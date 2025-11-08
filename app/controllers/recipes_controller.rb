@@ -16,6 +16,12 @@ class RecipesController < ApplicationController
     redirect_to @recipe
   end
 
+  def count
+    @recipe_count = Recipe.count
+    # render plain: @recipe_count
+    # render json: ["count" => @recipe_count]
+  end
+
   private
   def recipe_params
     @recipe = params.require(:recipe).permit(:name, :description)
