@@ -19,4 +19,9 @@ class RecipesControllerTest < ActionDispatch::IntegrationTest
     get recipes_url
     assert_response :success
   end
+
+  test "should get count" do
+    get count_recipes_url
+    assert_response :success
+  end
 end
